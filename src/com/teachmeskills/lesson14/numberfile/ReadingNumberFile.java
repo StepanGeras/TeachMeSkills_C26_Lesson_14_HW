@@ -20,6 +20,8 @@ public class ReadingNumberFile {
         try {
             Scanner scanner = new Scanner(System.in);
 
+            Logger.executionLogger("Enter the path to the file");
+
             System.out.println("Enter the path to input file");
 
             String pathFile = scanner.nextLine();
