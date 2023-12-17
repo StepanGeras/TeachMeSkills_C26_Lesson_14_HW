@@ -1,6 +1,5 @@
 package com.teachmeskills.lesson14.numberfile;
 
-import com.teachmeskills.lesson14.check.CheckPathInputFile;
 import com.teachmeskills.lesson14.check.ValidationCheck;
 import com.teachmeskills.lesson14.log.Logger;
 

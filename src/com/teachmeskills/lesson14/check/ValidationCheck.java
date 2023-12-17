@@ -1,12 +1,11 @@
 package com.teachmeskills.lesson14.check;
 
 import com.teachmeskills.lesson14.log.Logger;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ValidationCheck {
-
-    public static int MAX_LENGTH = 15;
 
     public static boolean doValidationCheckDocNumber (String numberDocument) {
 

@@ -21,12 +21,12 @@ public class Logger {
     public static void errorLogger (String message, Exception errorMessage) {
         try {
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.append(message + "\n");
+            stringBuilder.append(message).append("\n");
 
             StackTraceElement[] stackTraceElements = errorMessage.getStackTrace();
 
             for (StackTraceElement element: stackTraceElements) {
-                stringBuilder.append(element.toString() + "\n");
+                stringBuilder.append(element.toString()).append("\n");
             }
 
             Files.write(Paths.get(PATH_ERROR_LOG), stringBuilder.toString().getBytes(), StandardOpenOption.APPEND);
