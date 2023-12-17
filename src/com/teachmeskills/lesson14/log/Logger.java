@@ -13,7 +13,7 @@ public class Logger {
     public static void executionLogger (String message) {
         try {
             Files.write(Paths.get(PATH_EXECUTION_LOG), (message + "\n").getBytes(), StandardOpenOption.APPEND);
-        } catch (IOException e) {
+        } catch (IOException ignored) {
 
         }
     }
@@ -31,7 +31,7 @@ public class Logger {
 
             Files.write(Paths.get(PATH_ERROR_LOG), stringBuilder.toString().getBytes(), StandardOpenOption.APPEND);
 
-        } catch (IOException e) {
+        } catch (IOException ignored) {
 
         }
     }
