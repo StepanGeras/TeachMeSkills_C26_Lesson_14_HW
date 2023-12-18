@@ -2,6 +2,7 @@ package com.teachmeskills.lesson14.check;
 
 import com.teachmeskills.lesson14.log.Logger;
 
+import java.util.Date;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -9,7 +10,7 @@ public class ValidationCheck {
 
     public static boolean doValidationCheckDocNumber (String numberDocument) {
 
-        Logger.executionLogger("Start validation check docnum");
+        Logger.executionLogger(new Date(), "Start validation check docnum");
 
         boolean count = false;
 
@@ -20,7 +21,7 @@ public class ValidationCheck {
             count = true;
         }
 
-        Logger.executionLogger("End validation check docnum");
+        Logger.executionLogger(new Date(),"End validation check docnum");
 
         return count;
 
@@ -28,7 +29,7 @@ public class ValidationCheck {
 
     public static boolean doValidationCheckContractNumber (String numberDocument) {
 
-        Logger.executionLogger("Start validation check contract");
+        Logger.executionLogger(new Date(),"Start validation check contract");
 
         boolean count = false;
 
@@ -39,7 +40,7 @@ public class ValidationCheck {
             count = true;
         }
 
-        Logger.executionLogger("End validation check contract");
+        Logger.executionLogger(new Date(),"End validation check contract");
 
         return count;
 

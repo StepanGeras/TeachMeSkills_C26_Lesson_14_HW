@@ -3,6 +3,8 @@ package com.teachmeskills.lesson14;
 import com.teachmeskills.lesson14.log.Logger;
 import com.teachmeskills.lesson14.numberfile.ReadingNumberFile;
 
+import java.util.Date;
+
 /**
  * Допустим есть файл с номерами документов.
  * Номером документа является строка, состоящая из букв и цифр(без служебных символов).
@@ -21,11 +23,11 @@ public class Runner {
 
     public static void main(String[] args) {
 
-        Logger.executionLogger("Start program");
+        Logger.executionLogger(new Date(),"Start program");
 
         ReadingNumberFile.inputNumberFile();
 
-        Logger.executionLogger("End program");
+        Logger.executionLogger(new Date(),"End program");
 
     }
 

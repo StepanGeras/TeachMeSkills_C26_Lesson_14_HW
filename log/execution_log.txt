@@ -1,0 +1,38 @@
+Start program
+End program
+Start program
+End program
+Mon Dec 18 18:57:17 MSK 2023 Start program
+Mon Dec 18 18:57:17 MSK 2023 Enter the path to the file
+Mon Dec 18 18:57:22 MSK 2023 Start validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 End validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 Start validation check contract
+Mon Dec 18 18:57:22 MSK 2023 End validation check contract
+Mon Dec 18 18:57:22 MSK 2023 Document number does not correct
+Mon Dec 18 18:57:22 MSK 2023 Start validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 End validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 Document number is correct
+Mon Dec 18 18:57:22 MSK 2023 Start validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 End validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 Document number is correct
+Mon Dec 18 18:57:22 MSK 2023 Start validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 End validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 Start validation check contract
+Mon Dec 18 18:57:22 MSK 2023 End validation check contract
+Mon Dec 18 18:57:22 MSK 2023 Document number is correct
+Mon Dec 18 18:57:22 MSK 2023 Start validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 End validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 Start validation check contract
+Mon Dec 18 18:57:22 MSK 2023 End validation check contract
+Mon Dec 18 18:57:22 MSK 2023 Document number is correct
+Mon Dec 18 18:57:22 MSK 2023 Start validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 End validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 Start validation check contract
+Mon Dec 18 18:57:22 MSK 2023 End validation check contract
+Mon Dec 18 18:57:22 MSK 2023 Document number does not correct
+Mon Dec 18 18:57:22 MSK 2023 Start validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 End validation check docnum
+Mon Dec 18 18:57:22 MSK 2023 Start validation check contract
+Mon Dec 18 18:57:22 MSK 2023 End validation check contract
+Mon Dec 18 18:57:22 MSK 2023 Document number does not correct
+Mon Dec 18 18:57:22 MSK 2023 End program
